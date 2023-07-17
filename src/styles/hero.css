@@ -1,0 +1,43 @@
+.hero {
+  width: 100vw;
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../images/hero-3.jpg);
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+}
+.name-container {
+  position: relative;
+  top: 18rem;
+  text-align: center;
+  scroll-behavior: smooth;
+}
+.name {
+  display: flex;
+}
+
+@media screen and (min-width: 576px) {
+}
+
+/* Medium devices (tablets) */
+
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops) */
+
+@media (min-width: 991px) {
+  .hero {
+    background-size: cover;
+  }
+}
+
+/* Extra large devices (large desktops) */
+
+@media (min-width: 1200px) {
+}

@@ -1,0 +1,28 @@
+footer {
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  background-color: #dfe6e9;
+}
+.social-links {
+  display: flex;
+  gap: 2rem;
+}
+.link {
+  font-size: 2rem;
+  color: black;
+}
+.link i:hover {
+  transform: scale(1.5);
+  transition: all ease 0.5s;
+}
+.top {
+  font-size: 2rem;
+  color: black;
+}
+.footer-content {
+  font-size: 14px;
+}
