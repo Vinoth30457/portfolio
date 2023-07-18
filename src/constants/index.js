@@ -217,14 +217,14 @@ export const reactProject = [
     gitHub: "https://github.com/Vinoth30457/backroads.git",
     netlify: " https://tiny-vacherin-f53f9b.netlify.app",
     text: "Back roads",
-    image: fylo,
+    image: backroads,
   },
   {
     id: 2,
     gitHub: "https://github.com/Vinoth30457/fylo-landing-page.git",
     netlify: "https://grand-profiterole-3aecab.netlify.app/",
     text: "Fylo landling page",
-    image: backroads,
+    image: fylo,
   },
 ];
 
