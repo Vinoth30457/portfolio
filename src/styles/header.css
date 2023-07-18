@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap');
 
 header {
   width: 100%;
@@ -14,7 +16,7 @@ header {
   z-index: 10;
   width: 100%;
 
-  padding: 2rem 4rem;
+  padding: 2rem 2rem;
 
   transition-timing-function: ease-in;
   transition: all 0.5s;
@@ -25,6 +27,9 @@ header {
   font-size: 1.25rem;
   font-family: 'Orbitron',
     sans-serif;
+  /* font-family: 'Faster One',
+    cursive; */
+  letter-spacing: 2px;
 }
 
 .nav-links {
@@ -36,6 +41,9 @@ header {
 
 .nav-link {
   color: #fff;
+  font-family: 'Dosis',
+    sans-serif;
+  font-size: 1.15rem;
 }
 
 .nav-link:hover {

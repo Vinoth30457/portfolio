@@ -1,4 +1,5 @@
 import "../styles/contact.css";
+import resume from "../project_img/vinoth.pdf";
 
 const Contact = () => {
   return (
@@ -12,6 +13,9 @@ const Contact = () => {
       </h3>
       <a href="mailto:vinoth30457@gmail.com" className="mail">
         Say hello
+      </a>
+      <a href={resume} className="mail" target="_blank">
+        Download Resume
       </a>
     </div>
   );

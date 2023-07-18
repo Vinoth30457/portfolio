@@ -37,18 +37,60 @@ export const navLink = [
 export const tech = [
   {
     id: 1,
-    href: "",
+    href: "https://www.google.com/search?q=html5&rlz=1C1CHBF_enIN1055IN1055&oq=html&aqs=chrome.0.69i59l2j69i57j69i64j69i59j69i60l3.2472j0j4&sourceid=chrome&ie=UTF-8",
     text: "html",
     icon: html,
     itemClass: "img",
   },
-  { id: 2, href: "", text: "css", icon: css, itemClass: "img" },
-  { id: 3, href: "", text: "js", icon: js, itemClass: "img" },
-  { id: 4, href: "", text: "react", icon: react, itemClass: "img" },
-  { id: 5, href: "", text: "node", icon: node, itemClass: "img" },
-  { id: 6, href: "", text: "api", icon: api, itemClass: "img" },
-  { id: 7, href: "", text: "mongo", icon: mongo, itemClass: "img" },
-  { id: 8, href: "", text: "git", icon: git, itemClass: "img" },
+  {
+    id: 2,
+    href: "https://www.google.com/search?q=css&rlz=1C1CHBF_enIN1055IN1055&oq=css&aqs=chrome.0.69i59l3j69i64j0i131i433i512j69i60l3.1091j0j9&sourceid=chrome&ie=UTF-8",
+    text: "css",
+    icon: css,
+    itemClass: "img",
+  },
+  {
+    id: 3,
+    href: "https://javascript.info/",
+    text: "js",
+    icon: js,
+    itemClass: "img",
+  },
+  {
+    id: 4,
+    href: "https://react.dev/",
+    text: "react",
+    icon: react,
+    itemClass: "img",
+  },
+  {
+    id: 5,
+    href: "https://nodejs.org/en/docs/guides",
+    text: "node",
+    icon: node,
+    itemClass: "img",
+  },
+  {
+    id: 6,
+    href: "https://www.google.com/search?q=api&rlz=1C1CHBF_enIN1055IN1055&oq=api&aqs=chrome.0.69i59l2j0i433i512j0i131i433i512j0i20i263i512j46i131i199i433i465i512j0i512j0i131i433i512l3.1089j0j4&sourceid=chrome&ie=UTF-8",
+    text: "api",
+    icon: api,
+    itemClass: "img",
+  },
+  {
+    id: 7,
+    href: "https://www.mongodb.com/",
+    text: "mongo",
+    icon: mongo,
+    itemClass: "img",
+  },
+  {
+    id: 8,
+    href: "https://github.blog/",
+    text: "git",
+    icon: git,
+    itemClass: "img",
+  },
 ];
 
 export const jsProject = [
@@ -177,11 +219,19 @@ export const reactProject = [
 ];
 
 export const socialLink = [
-  { id: 1, icon: "fa-brands fa-instagram", href: "" },
+  {
+    id: 1,
+    icon: "fa-brands fa-instagram",
+    href: "https://instagram.com/lovely_vinoth____?igshid=MzNlNGNkZWQ4Mg==",
+  },
   {
     id: 2,
     icon: "fa-brands fa-github",
     href: "https://github.com/Vinoth30457",
   },
-  { id: 3, icon: "fa-brands fa-linkedin", href: "" },
+  {
+    id: 3,
+    icon: "fa-brands fa-linkedin",
+    href: "https://www.linkedin.com/in/vinoth-kumar-306018229",
+  },
 ];

@@ -6,7 +6,7 @@ import "../styles/project.css";
 const Project = () => {
   return (
     <div className="project" id="project">
-      <h1>Java Script Project</h1>
+      <h1 className="title">Java Script Project</h1>
       <ul className="javascript">
         {jsProject.map((item) => {
           return <ProjectCard {...item} />;

@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Karantina:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600&display=swap');
+
 .about {
   background-color: #ecf0f1;
   width: 100%;
@@ -10,13 +13,25 @@
   padding: 3rem;
   text-align: center;
 }
-@media screen and (min-width: 576px) {
+
+.title {
+  font-family: 'Karantina', cursive;
+  font-weight: 400;
+  font-size: 3rem;
 }
+
+.description,
+.welcome {
+  font-family: 'Dosis',
+    sans-serif;
+  font-size: 1.25rem;
+}
+
+@media screen and (min-width: 576px) {}
 
 /* Medium devices (tablets) */
 
-@media (min-width: 768px) {
-}
+@media (min-width: 768px) {}
 
 /* Large devices (desktops) */
 
@@ -28,5 +43,4 @@
 
 /* Extra large devices (large desktops) */
 
-@media (min-width: 1200px) {
-}
+@media (min-width: 1200px) {}

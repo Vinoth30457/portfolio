@@ -13,6 +13,9 @@ const Footer = () => {
       <a href="#home" className="top">
         <i class="fa-solid fa-jet-fighter-up"></i>
       </a>
+      <p className="thank-you description">
+        Thank you for visiting my Portfolio
+      </p>
       <p className="footer-content">
         &copy; VINOTH KUMAR {new Date().getFullYear()}
       </p>
