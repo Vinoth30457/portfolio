@@ -7,7 +7,9 @@
   padding: 0;
   box-sizing: border-box;
   outline: none;
+  scroll-behavior: smooth;
 }
+
 html,
 body {
   width: 100%;
@@ -15,6 +17,7 @@ body {
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
+
 :root {
   --white: white;
 }
@@ -66,20 +69,16 @@ li {
   border: 2px solid #1c2042;
 }
 
-@media screen and (min-width: 576px) {
-}
+@media screen and (min-width: 576px) {}
 
 /* Medium devices (tablets) */
 
-@media (min-width: 768px) {
-}
+@media (min-width: 768px) {}
 
 /* Large devices (desktops) */
 
-@media (min-width: 991px) {
-}
+@media (min-width: 991px) {}
 
 /* Extra large devices (large desktops) */
 
-@media (min-width: 1200px) {
-}
+@media (min-width: 1200px) {}
