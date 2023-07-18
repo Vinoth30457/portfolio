@@ -24,6 +24,9 @@ import tictactoe from "../project_img/tictactoe.png";
 import tip from "../project_img/tip.png";
 import virtual from "../project_img/virtual.png";
 import weather from "../project_img/array.png";
+//react
+import fylo from "../project_img/fylo.png";
+import backroads from "../project_img/backroads.png";
 //end
 
 export const navLink = [
@@ -103,7 +106,7 @@ export const jsProject = [
   },
   {
     id: 2,
-    gitHub: "(https://github.com/Vinoth30457/currency-exchange.git",
+    gitHub: "https://github.com/Vinoth30457/currency-exchange.git",
     netlify: "https://tiny-cascaron-581ec0.netlify.app",
     text: "Currency Exchange",
     image: currency,
@@ -211,10 +214,17 @@ export const jsProject = [
 export const reactProject = [
   {
     id: 1,
-    gitHub: "https://github.com/Vinoth30457/rock-paper-scissors-master.git",
-    netlify: "https://incandescent-cajeta-cfdaa4.netlify.app",
-    text: "Rock Paper Scissors",
-    image: rock,
+    gitHub: "https://github.com/Vinoth30457/backroads.git",
+    netlify: " https://tiny-vacherin-f53f9b.netlify.app",
+    text: "Back roads",
+    image: fylo,
+  },
+  {
+    id: 2,
+    gitHub: "https://github.com/Vinoth30457/fylo-landing-page.git",
+    netlify: "https://grand-profiterole-3aecab.netlify.app/",
+    text: "Fylo landling page",
+    image: backroads,
   },
 ];
 
