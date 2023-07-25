@@ -23,7 +23,7 @@ import rock from "../project_img/rock.png";
 import tictactoe from "../project_img/tictactoe.png";
 import tip from "../project_img/tip.png";
 import virtual from "../project_img/virtual.png";
-import weather from "../project_img/array.png";
+import weather from "../project_img/weather.png";
 //react
 import fylo from "../project_img/fylo.png";
 import backroads from "../project_img/backroads.png";
