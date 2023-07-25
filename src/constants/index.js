@@ -27,6 +27,8 @@ import weather from "../project_img/array.png";
 //react
 import fylo from "../project_img/fylo.png";
 import backroads from "../project_img/backroads.png";
+import appliances from "../project_img/appliances.png";
+
 //end
 
 export const navLink = [
@@ -225,6 +227,13 @@ export const reactProject = [
     netlify: "https://grand-profiterole-3aecab.netlify.app/",
     text: "Fylo landling page",
     image: fylo,
+  },
+  {
+    id: 3,
+    gitHub: "https://github.com/Vinoth30457/home-appliances.git",
+    netlify: "https://tourmaline-duckanoo-24d589.netlify.app/",
+    text: "Home Appliances",
+    image: appliances,
   },
 ];
 
